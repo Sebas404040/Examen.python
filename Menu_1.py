@@ -1,5 +1,5 @@
 def menu_principal():
-    from Funcionalidad import registrar_artista
+    from Funcionalidad import registrar_artista, registrar_pais
     print("Bienvenido")
     print("""
     1. Registrar artistas
@@ -21,6 +21,7 @@ def menu_principal():
                 print ("Registrar genero musical")
             elif decision_main==3:
                 print ("Registrar pais")
+                registrar_pais()
             elif decision_main==4:
                 print ("Informes")
             elif decision_main==5:
@@ -28,4 +29,3 @@ def menu_principal():
                 break
     except (ValueError):
         print("Ingreso un valor no valido")
-menu_principal()
