@@ -1,5 +1,5 @@
 def menu_principal():
-    from Funcionalidad import registrar_artista, registrar_pais
+    from Funcionalidad import registrar_artista, registrar_pais, registrar_genero
     print("Bienvenido")
     print("""
     1. Registrar artistas
@@ -19,6 +19,7 @@ def menu_principal():
                 registrar_artista()
             elif decision_main==2:
                 print ("Registrar genero musical")
+                registrar_genero()
             elif decision_main==3:
                 print ("Registrar pais")
                 registrar_pais()

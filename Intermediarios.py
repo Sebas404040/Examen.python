@@ -1,1 +1,2 @@
 paises= { }
+generos= { }
